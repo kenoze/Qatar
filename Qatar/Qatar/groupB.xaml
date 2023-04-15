@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.groupB" BackgroundImageSource="https://wallpaper.dog/large/20496714.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Form" >
+
+                <TableRoot >
+                    <TableSection Title="Group B"  >
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/2560px-Flag_of_England.svg.png" Text="England" TextColor="White" Detail="Europe" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/800px-Flag_of_the_United_States_%28Pantone%29.svg.png?20160113211754" Text="USA" DetailColor="White" TextColor="White"  Detail="North Americe" ></ImageCell>
+
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/1200px-Flag_of_Iran.svg.png" Text="Iran" TextColor="White" Detail="Africa" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://pixnio.com/free-images/flags-of-the-world/flag-of-peru-725x482.jpg" Text="Peru" TextColor="White" Detail="South America" DetailColor="White"></ImageCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button BackgroundColor="#800000" TextColor="White" Text="Group C" Clicked="grupaC_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

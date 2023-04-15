@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.Registracija" BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="5" Margin="20">
+
+            <Label Text="Registration" FontSize="40"
+ HorizontalTextAlignment="Start" TextColor="#8B2323"></Label>
+
+            <Entry Placeholder="Username" MaxLength="20"
+ x:Name="username"></Entry>
+            <Entry Placeholder="Email" Keyboard="Email"
+ x:Name="email"></Entry>
+            <Entry Placeholder="Telephone" Keyboard="Telephone" 
+ x:Name="telefon"></Entry>
+            <Entry Placeholder="Password" IsPassword="True" MaxLength="20"
+ x:Name="sifra"></Entry>
+            <Entry Placeholder="Confirm the password" IsPassword="True"
+ MaxLength="20"></Entry>
+            <Label Text="Address" FontSize="15"></Label>
+            <Editor x:Name="adresa"></Editor>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Save password"></Label>
+                <Switch IsToggled="False"></Switch>
+            </StackLayout>
+
+            <Button x:Name="registracija" Text="Registration"
+ BackgroundColor="#8B2323" TextColor="#fff" Clicked="registracija_Clicked"
+></Button>
+            <Button x:Name="prijava" Text="You have an account? Sign in"
+ TextColor="#8B2323"
+ BackgroundColor="#c8d8e4" HorizontalOptions="Start"
+ TextTransform="None" FontSize="17"
+                    Clicked="prijava_Clicked"
+></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

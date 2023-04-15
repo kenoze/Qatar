@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.groupD" BackgroundImageSource="https://images.fineartamerica.com/images/artworkimages/medium/3/wallpaper-mbappe-art-zuny-wahyu.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Form" >
+
+                <TableRoot >
+                    <TableSection Title="Group D"  >
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/2560px-Flag_of_France.svg.png" Text="Frnace" TextColor="White" Detail="Europe" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png" Text="Denmark" TextColor="White" Detail="Europe" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/2560px-Flag_of_Tunisia.svg.png" Text="Tunis" TextColor="White" Detail="Africa" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://www.philcooke.com/wp-content/uploads/2007/05/Bandera_Australia_Viajar.jpg" Text="Australia"  TextColor="White" Detail="Australia" DetailColor="White"></ImageCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button BackgroundColor="#800000" TextColor="White" Text="Group E" Clicked="grupaE_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

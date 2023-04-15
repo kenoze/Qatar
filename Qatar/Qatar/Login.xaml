@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.MainPage"
+             BackgroundImageSource="katar.jpg">
+
+
+    <StackLayout>
+
+        <Label       
+
+FontSize="Large"
+VerticalOptions="CenterAndExpand"
+HorizontalOptions="Center" />
+        <Image Source="opx.png"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center" WidthRequest="300"></Image>
+        <Button x:Name="prijava"  Text="Login!  "
+                BackgroundColor="AntiqueWhite"
+VerticalOptions="End"
+HorizontalOptions="Center"
+                CornerRadius="25" FontSize="13" Clicked="prijava_Clicked"
+ />
+        <Button Text="Registration!"
+                BackgroundColor="AntiqueWhite" 
+VerticalOptions="CenterAndExpand"
+HorizontalOptions="Center" 
+                CornerRadius="25" FontSize="13" Clicked="registracija_Clicked"
+ />
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.groupA" BackgroundImageSource="https://wallpapercave.com/wp/wp5426363.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Form" >
+
+                <TableRoot >
+                    <TableSection Title="Group A"   >
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Qatar_%283-2%29.svg/1280px-Flag_of_Qatar_%283-2%29.svg.png" Text="Qatar"  Detail="Asia" TextColor="White"  DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://www.netherlands-tourism.com/wp-content/uploads/2013/07/Flag-of-The-Netherlands3.png" Text="Netherland" TextColor="White" Detail="Europe" DetailColor="White" ></ImageCell>
+
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png" Text="Senegal" TextColor="White" Detail="Africa"   DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/2560px-Flag_of_Ecuador.svg.png" Text="Ecuador" TextColor="White" Detail="South America"   DetailColor="White"></ImageCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button BackgroundColor="#800000" TextColor="White" Text="Group B" Clicked="grupab_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    

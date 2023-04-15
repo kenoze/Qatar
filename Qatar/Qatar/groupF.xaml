@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.groupF" BackgroundImageSource="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6c947d2c-fd29-4e2e-9231-4c8b393c4e00/dcfkcic-68437d9c-6a59-40fc-a272-fbe7c1253e16.jpg/v1/fill/w_1024,h_1024,q_75,strp/romelu_lukaku_belgium_hd__football2k_by_rimshad7_dcfkcic-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzZjOTQ3ZDJjLWZkMjktNGUyZS05MjMxLTRjOGIzOTNjNGUwMFwvZGNma2NpYy02ODQzN2Q5Yy02YTU5LTQwZmMtYTI3Mi1mYmU3YzEyNTNlMTYuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.bhAK0mufwi16NuMBtA1D-m3ol0eXiOtuxoLI2eMvF_E">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Form" >
+
+                <TableRoot >
+                    <TableSection Title="Group F"  >
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/2560px-Flag_of_Croatia.svg.png" Text="Croatia" TextColor="White" Detail="Europe" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://wallpapercave.com/wp/wp2359206.gif" Text="Belgium" TextColor="White"  Detail="Europe" DetailColor="White" ></ImageCell>
+
+                        <ImageCell ImageSource ="https://static.vecteezy.com/system/resources/previews/001/218/820/original/illustration-of-canada-flag-vector.jpg" Text="Canada" TextColor="White" Detail="North America" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/2560px-Flag_of_Morocco.svg.png" Text="Morocco"  TextColor="White" Detail="Africa" DetailColor="White"></ImageCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button BackgroundColor="#800000" TextColor="White" Text="Group G" Clicked="grupaG_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

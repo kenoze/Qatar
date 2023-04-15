@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.groupG" BackgroundImageSource="https://wallpaperaccess.com/full/5209133.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Form" >
+
+                <TableRoot  >
+                    <TableSection Title="Group G"  >
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png" Text="Brasil" TextColor="White" Detail="South America" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/2048px-Flag_of_Switzerland.svg.png" Text="Switzerland" TextColor="White"  Detail="Europe" DetailColor="White" ></ImageCell>
+
+                        <ImageCell ImageSource ="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/945px-Flag_of_Serbia.svg.png" Text="Serbia" TextColor="White" Detail="Europe" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/800px-Flag_of_Cameroon.svg.png?20201114195356" Text="Cameroon"  TextColor="White" Detail="Africa" DetailColor="White"></ImageCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button BackgroundColor="#800000" TextColor="White" Text="Group H" Clicked="grupaH_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

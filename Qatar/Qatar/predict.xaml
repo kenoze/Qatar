@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.predict" BackgroundImageSource="https://assets.foxdcg.com/dpp-uploaded/final_images_sports/chip_soccer_fifa_world_cup_qatar_2022_final_draw-seriesList.jpg?downsize=550%3A*" Title="Predict">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+        <Frame>
+            <Label Text="Predict the winner" 
+                   FontSize="Medium"
+                  FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <Image x:Name="image"/>
+        <Button Text="Start"  Clicked="btn_Clicked" CornerRadius="20" WidthRequest="150" BackgroundColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>

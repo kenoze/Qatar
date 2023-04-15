@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.Page1" BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Image Source="qataaar.jpg" WidthRequest="300"></Image>
+            <Label Text="" FontSize="30"
+ HorizontalTextAlignment="Start" TextColor="#8B2323"></Label>
+            <StackLayout VerticalOptions="Center" Margin="30">
+                <Label Text="Name:" FontSize="20"
+
+ TextColor="#8B2323"></Label>
+                <Entry x:Name="username" PlaceholderColor="AntiqueWhite"></Entry>
+                <Label Text="Password:" FontSize="20" 
+ TextColor="#8B2323"></Label>
+                <Entry x:Name="sifra" IsPassword="True"></Entry>
+                <Button x:Name="prijava" Text="Sign in!"
+ BackgroundColor="#8B2323" TextColor="White"
+                        Clicked="prijava_Clicked"
+
+ CornerRadius="25"></Button>
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

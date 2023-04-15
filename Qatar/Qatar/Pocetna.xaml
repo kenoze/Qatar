@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.Pocetna" BackgroundImageSource="q1.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                <Grid RowSpacing="10" Margin="20,50,40,50">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                    </Grid.RowDefinitions>
+                    <Image Source="raspored.png" Grid.Row="0"
+ Grid.Column="0" Aspect="AspectFit"></Image>
+                    <Button x:Name="grupe" Grid.Row="1"
+ Grid.Column="0" Grid.ColumnSpan="1"
+ FontSize="20" Text="Groups" Clicked="grupe_Clicked"
+ TextColor="#fff" BackgroundColor="#800922" CornerRadius="30"
+ />
+
+                    <Image Source="stadion.png" HeightRequest="100" Grid.Row="0"
+ Grid.Column="2" Aspect="AspectFit"></Image>
+                    <Button x:Name="stadion" Grid.Row="1"
+ Grid.Column="2" Grid.ColumnSpan="1"
+ FontSize="20" Text="Stadium"
+ TextColor="#fff"
+ BackgroundColor="#800922" CornerRadius="30" 
+                             Clicked="Stadion_Clicked"
+ />
+                    <Image Source="karta.png" Grid.Row="2"
+ Grid.Column="0" Aspect="AspectFit"></Image>
+                    <Button x:Name="karta" Grid.Row="3"
+ Grid.Column="0" Grid.ColumnSpan="1"
+ FontSize="20" Text="Tickets" Clicked="karta_Clicked"
+ TextColor="#fff" BackgroundColor="#800922" CornerRadius="30"
+ />
+                    <Image Source="trofej.png" HeightRequest="100" Grid.Row="2"
+ Grid.Column="2" Aspect="AspectFit"></Image>
+                    <Button x:Name="trofej" Grid.Row="3"
+ Grid.Column="2" Grid.ColumnSpan="1"
+ FontSize="20" Text="Predict"
+ TextColor="#fff"
+ BackgroundColor="#800922" CornerRadius="30" Clicked="predict_Clicked"
+ />
+                    <Image Source="live.png" HeightRequest="100" Grid.Row="4"
+ Grid.Column="0" Aspect="AspectFit"></Image>
+                    <Button x:Name="live" Grid.Row="5"
+ Grid.Column="0" Grid.ColumnSpan="1"
+ FontSize="20" Text="Live"
+ TextColor="#fff"
+ BackgroundColor="#800922" CornerRadius="30" Clicked="live_Clicked"
+                            />
+                    <Image Source="history.jpg" HeightRequest="150"  Grid.Row="4" Grid.Column="2" 
+ Aspect="AspectFit"></Image>
+                    <Button x:Name="history" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="1" FontSize="20"
+ Text="History" TextColor="white" BackgroundColor="#800922" CornerRadius="30" Clicked="history_Clicked" ></Button>
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

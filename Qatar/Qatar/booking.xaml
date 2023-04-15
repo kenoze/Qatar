@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.booking" >
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame HeightRequest="50" BackgroundColor="Maroon"></Frame>
+            <Label Text="Pick-up date:" TextColor="Black" FontSize="20" Margin="20"></Label>
+
+            <DatePicker x:Name="startDatePicker"
+                        Format="dd.MM.yyyy"
+                        Margin="0,0,0,50"
+                        DateSelected="startDatePicker_DateSelected"
+                        MaximumDate="11/21/2022" ></DatePicker>
+
+            <Label Text="Match date:" TextColor="Black" FontSize="20" Margin="20"></Label>
+
+            <DatePicker x:Name="endDatePicker"
+                        Format="dd.MM.yyyy"
+                        Margin="0,0,0,30"
+                        DateSelected="endDatePicker_DateSelected" 
+                        MinimumDate="11/21/2022"
+                        MaximumDate="12/21/2022">
+
+            </DatePicker>
+            <Label x:Name="resultLabela" FontAttributes="Italic" HorizontalOptions="Center" FontSize="20" TextColor="Black"></Label>
+
+            <Image Source="tickets.jpeg" Aspect="Fill" ></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

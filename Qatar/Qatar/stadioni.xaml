@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.stadioni" BackgroundColor="White" Title="Stadiums" >
+    <ScrollView>
+        <StackLayout>
+
+            <Frame BackgroundColor="#800922" Padding="15" CornerRadius="40" HasShadow="True" BorderColor="Black">
+                <Label Text="Al Thumama Stadium" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+            </Frame>
+            <Image Source="stadion1.jpg" WidthRequest="500"></Image>
+            <Label Text="CAPACITY: 40.000" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="CITY: Doha, Qatar" FontSize="18" Padding="30,0,30,0" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="OPENED: 22.11.2021." FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="VALUE:600.000.000$ " FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+
+            <Label Text=""    FontSize="18" Padding="30,0,30,0" FontAttributes="Bold"  >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Image Source="q.jpg" WidthRequest="200" />
+            <Frame BackgroundColor="#800922" Padding="10" CornerRadius="40" HasShadow="True" BorderColor="Black">
+                <Label Text="Al Janoub Stadium" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+            </Frame>
+            <Image Source="stadion2.jpg" WidthRequest="500"></Image>
+            <Label Text="CAPACITY: 40.000" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="CITY: Al Wakrah, Qatar" FontSize="18" Padding="30,0,30,0" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="OPENED: 16.05.2019." FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="VALUE:587.000.000$" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+
+            <Label Text=""    FontSize="18" Padding="30,0,30,0" FontAttributes="Bold"  >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Image Source="q.jpg" WidthRequest="200" />
+            <Frame BackgroundColor="#800922" Padding="10" CornerRadius="40" HasShadow="True" BorderColor="Black">
+                <Label Text="Al Bayt Stadium" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+            </Frame>
+            <Image Source="stadion3.jpg" WidthRequest="500"></Image>
+            <Label Text="CAPACITY: 60.000" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="CITY: Al Khor, Katar" FontSize="18" Padding="30,0,30,0" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="OPENED: 30.11.2021." FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="VALUE:847.000.000$ " FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+
+            <Label Text=""    FontSize="18" Padding="30,0,30,0" FontAttributes="Bold"  >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Image Source="q.jpg" WidthRequest="200" />
+            <Frame BackgroundColor="#800922" Padding="10" CornerRadius="40" HasShadow="True" BorderColor="Black">
+                <Label Text="Ahmad Bin Ali Stadium" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+            </Frame>
+            <Image Source="stadion4.jpg" WidthRequest="500"></Image>
+            <Label Text="CAPACITY: 50.000" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="CITY: Ar Rayyan, Qatar" FontSize="18" Padding="30,0,30,0" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="OPENED: 18.12.2020." FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="VALUE:360.000.000$ " FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+
+            <Label Text=""    FontSize="18" Padding="30,0,30,0" FontAttributes="Bold"  >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Image Source="q.jpg" WidthRequest="200" />
+
+            <Frame BackgroundColor="#800922" Padding="10" CornerRadius="40" HasShadow="True" BorderColor="Black">
+                <Label Text="Education City Stadium" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+            </Frame>
+            <Image Source="stadion5.jpg" WidthRequest="500"></Image>
+            <Label Text="CAPACITY: 45.340" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="CITY: Ar Rayyan,Qatar" FontSize="18" Padding="30,0,30,0" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="OPENED: 15.06.2021." FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="VALUE:700.000.000$ " FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+
+            <Label Text=""    FontSize="18" Padding="30,0,30,0" FontAttributes="Bold"  >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Image Source="q.jpg" WidthRequest="200" />
+            <Frame BackgroundColor="#800922" Padding="10" CornerRadius="40" HasShadow="True" BorderColor="Black">
+                <Label Text="974 Stadium" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+            </Frame>
+            <Image Source="stadion6.jpg" WidthRequest="500"></Image>
+            <Label Text="CAPACITY: 45.000" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="CITY: Doha, Qatar" FontSize="18" Padding="30,0,30,0" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="OPENED: 22.11.2021." FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="VALUE:320.000.000$ " FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+
+            <Label Text=""    FontSize="18" Padding="30,0,30,0" FontAttributes="Bold"  >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Image Source="q.jpg" WidthRequest="200" />
+            <Frame BackgroundColor="#800922" Padding="10" CornerRadius="40" HasShadow="True" BorderColor="Black">
+                <Label Text="Khalifa International Stadium" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+            </Frame>
+            <Image Source="stadion7.jpg" WidthRequest="500"></Image>
+            <Label Text="CAPACITY: 45.416" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="CITY: Doha, Katar" FontSize="18" Padding="30,0,30,0" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="OPENED: 13.05.2017." FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="VALUE:280.000.000$ " FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+
+            <Label Text=""    FontSize="18" Padding="30,0,30,0" FontAttributes="Bold"  >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Image Source="q.jpg" WidthRequest="200" />
+            <Frame BackgroundColor="#800922" Padding="10" CornerRadius="40" HasShadow="True" BorderColor="Black">
+                <Label Text="Lusail Stadium" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+            </Frame>
+            <Image Source="stadion8.jpg" WidthRequest="500"></Image>
+            <Label Text="CAPACITY: 80.000" FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="CITY: Lusail, Qatar" FontSize="18" Padding="30,0,30,0" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="OPENED: 15.04.2021." FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+            <Label Text="VALUE:767.000.000$ " FontSize="18" Padding="30,10,30,10" FontAttributes="Bold" TextColor="#800922"/>
+
+            <Label Text=""    FontSize="18" Padding="30,0,30,0" FontAttributes="Bold"  >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Image Source="q.jpg" WidthRequest="200" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

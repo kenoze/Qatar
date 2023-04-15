@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Qatar.groupC"  BackgroundImageSource="https://w0.peakpx.com/wallpaper/749/99/HD-wallpaper-messi-argentina-campeon-champions-lionel-barcelona-copa-america-football-seleccion-futbol-thumbnail.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Form" >
+
+                <TableRoot >
+                    <TableSection Title="Group C"  >
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/2560px-Flag_of_Argentina.svg.png" Text="Argentina" TextColor="White" Detail="South America" DetailColor="White"></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Mexico.png" Text="Mexico" TextColor="White"  Detail="North America" DetailColor="White" ></ImageCell>
+
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/2560px-Flag_of_Poland.svg.png" Text="Poland" TextColor="White" Detail="Europe" DetailColor="White" ></ImageCell>
+                        <ImageCell ImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/2560px-Flag_of_Saudi_Arabia.svg.png" Text="Saudi Arabia"  TextColor="White" Detail="Asia" DetailColor="White"></ImageCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button BackgroundColor="#800000" TextColor="White" Text="Group D" Clicked="grupaD_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
